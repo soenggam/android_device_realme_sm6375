@@ -162,9 +162,9 @@ PRODUCT_PACKAGES += \
     fs_config_files
 
 # Fingerprint
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
-    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
+#PRODUCT_PACKAGES += \
+#    android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
+#    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
 # FM
 PRODUCT_PACKAGES += \

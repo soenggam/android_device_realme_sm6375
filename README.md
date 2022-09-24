@@ -1,4 +1,4 @@
-# Common device tree for Xiaomi SM6375 devices
+# Common device tree for Realme SM6375 devices
 
 ```
 #

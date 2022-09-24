@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter peux veux,$(TARGET_DEVICE)),)
+ifneq ($(filter RMX3471 RMX3472 RMX3478,$(TARGET_DEVICE)),)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
