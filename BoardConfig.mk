@@ -82,6 +82,10 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
 ODM_MANIFEST_SKUS += nfc
 ODM_MANIFEST_NFC_FILES := $(COMMON_PATH)/manifest_nfc.xml
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_realme_sm6375
+TARGET_RECOVERY_DEVICE_MODULES := init_realme_sm6375
+
 # Kernel
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_BASE := 0x00000000
@@ -234,4 +238,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
-include vendor/xiaomi/sm6375-common/BoardConfigVendor.mk
+include vendor/realme/sm6375/BoardConfigVendor.mk
